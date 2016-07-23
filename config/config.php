@@ -19,8 +19,8 @@ require('../librery/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
 
 $smarty->setTemplateDir(TemplatePrefix);
-$smarty->setCompileDir('../tmp/templates_c');
-$smarty->setCacheDir('../tmp/cache');
+$smarty->setCompileDir('../tmp/smarty/templates_c');
+$smarty->setCacheDir('../tmp/smarty/cache');
 $smarty->setConfigDir('../librery/Smarty/configs');
 
 $smarty->assign('templateWebPath', TemplateWebPath); // Объявление переменной Smarty templateWebPath и передача значения константы TemplateWebPath
