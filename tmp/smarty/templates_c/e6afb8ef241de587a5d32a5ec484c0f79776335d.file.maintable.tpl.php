@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-23 15:09:06
+<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-23 15:15:39
          compiled from "..\views\default\maintable.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2889557935d105c3398-81362232%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e6afb8ef241de587a5d32a5ec484c0f79776335d' => 
     array (
       0 => '..\\views\\default\\maintable.tpl',
-      1 => 1469275741,
+      1 => 1469275789,
       2 => 'file',
     ),
   ),
@@ -33,6 +33,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </tr>
   <tr>
     <td>ip_v6_VK</td>
+    <td>20</td>
+    <td>10</td>
+    <td>Купить</td>
+  </tr>
+  <tr>
+    <td>ip_v6_INS</td>
+    <td>20</td>
+    <td>10</td>
+    <td>Купить</td>
+  </tr>
+  <tr>
+    <td>ip_v6_OK</td>
+    <td>20</td>
+    <td>10</td>
+    <td>Купить</td>
+  </tr>
+  <tr>
+    <td>ip_v6_G</td>
     <td>20</td>
     <td>10</td>
     <td>Купить</td>
