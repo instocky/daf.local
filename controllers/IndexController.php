@@ -2,5 +2,5 @@
 
 function testAction()
 {
-  echo "string";
+  echo "1222string";
 }
