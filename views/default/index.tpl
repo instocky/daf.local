@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link href="style.css" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>{$pageTitle}</title>
-  </head>
-  <body>
-    {$pageTitle}
-  </body>
-</html>
+{*тест комментария*}
+
+{include file='header.tpl'}
+{include file='maintable.tpl'}
+{include file='about.tpl'}
+<!-- {include file='buy.tpl'} -->
+<!-- {include file='menu.tpl'} -->
+{include file='footer.tpl'}

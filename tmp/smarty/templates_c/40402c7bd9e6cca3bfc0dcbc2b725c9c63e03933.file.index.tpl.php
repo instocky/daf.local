@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-23 13:27:53
+<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-23 15:03:28
          compiled from "..\views\default\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:12473579346a950b878-10128691%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '40402c7bd9e6cca3bfc0dcbc2b725c9c63e03933' => 
     array (
       0 => '..\\views\\default\\index.tpl',
-      1 => 1469269091,
+      1 => 1469275403,
       2 => 'file',
     ),
   ),
@@ -15,26 +15,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'variables' => 
-  array (
-    'pageTitle' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.22-dev',
   'unifunc' => 'content_579346a9542385_03022173',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_579346a9542385_03022173')) {function content_579346a9542385_03022173($_smarty_tpl) {?><!DOCTYPE html>
-<html>
-  <head>
-    <link href="style.css" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title><?php echo $_smarty_tpl->tpl_vars['pageTitle']->value;?>
-</title>
-  </head>
-  <body>
-    <?php echo $_smarty_tpl->tpl_vars['pageTitle']->value;?>
+<?php if ($_valid && !is_callable('content_579346a9542385_03022173')) {function content_579346a9542385_03022173($_smarty_tpl) {?>
 
-  </body>
-</html>
+<?php echo $_smarty_tpl->getSubTemplate ('header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+<?php echo $_smarty_tpl->getSubTemplate ('maintable.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+<?php echo $_smarty_tpl->getSubTemplate ('about.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+<!-- <?php echo $_smarty_tpl->getSubTemplate ('buy.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+ -->
+<!-- <?php echo $_smarty_tpl->getSubTemplate ('menu.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+ -->
+<?php echo $_smarty_tpl->getSubTemplate ('footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
 <?php }} ?>
