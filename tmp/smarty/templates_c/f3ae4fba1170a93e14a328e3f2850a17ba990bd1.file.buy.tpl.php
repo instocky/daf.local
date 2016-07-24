@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-23 14:34:47
+<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-24 14:41:24
          compiled from "..\views\default\buy.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:24443579356575968d7-94608548%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f3ae4fba1170a93e14a328e3f2850a17ba990bd1' => 
     array (
       0 => '..\\views\\default\\buy.tpl',
-      1 => 1469273148,
+      1 => 1469360479,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.22-dev',
   'unifunc' => 'content_5793565759e5d8_03542285',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5793565759e5d8_03542285')) {function content_5793565759e5d8_03542285($_smarty_tpl) {?><section class="home-order">
   <div class="wrap">

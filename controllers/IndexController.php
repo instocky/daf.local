@@ -10,12 +10,12 @@ include_once '../models/ProductsModel.php';
 // объект $smarty - шаблонизатор
 function indexAction($smarty) {
   $rsProducts = getAllPropetiesProducts();
-  $summVk = getStatusRest($rsProducts);
+  // $summVk = getStatusRest($rsProducts);
 
   $time = getRestInterval($rsProducts);
 
   $smarty->assign('pageTitle', 'Главная страница сайта');
-  $smarty->assign('summVk', $summVk);
+  // $smarty->assign('summVk', $summVk);
   $smarty->assign('vk7', $time[vk7]);
   $smarty->assign('vk15', $time[vk15]);
 
