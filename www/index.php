@@ -1,6 +1,7 @@
 <?php
 // подключение файла конфигурации и файла общих функций
 include_once '../config/config.php';
+include_once '../config/db.php';
 include_once '../librery/mainFunctions.php';
 
 // определение имени контроллера, который будет вызываться

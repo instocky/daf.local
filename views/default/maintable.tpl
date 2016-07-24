@@ -4,7 +4,7 @@
 
   <!-- Table -->
   <table class="table">
-  <tr>
+  <tr style="font-weight: bold;">
     <td>Наименование</td>
     <td>Количество</td>
     <td>Цена</td>
