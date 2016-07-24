@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-23 20:58:50
+<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-24 08:49:17
          compiled from "..\views\default\maintable.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2889557935d105c3398-81362232%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e6afb8ef241de587a5d32a5ec484c0f79776335d' => 
     array (
       0 => '..\\views\\default\\maintable.tpl',
-      1 => 1469296702,
+      1 => 1469339354,
       2 => 'file',
     ),
   ),
@@ -17,6 +17,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'version' => 'Smarty-3.1.22-dev',
   'unifunc' => 'content_57935d105c7218_05617372',
+  'variables' => 
+  array (
+    'summVk' => 0,
+  ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57935d105c7218_05617372')) {function content_57935d105c7218_05617372($_smarty_tpl) {?><div class="panel panel-default">
@@ -33,11 +37,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </tr>
   <tr>
     <td>ip_v6_VK</td>
-    <td>20</td>
+    <td><?php echo $_smarty_tpl->tpl_vars['summVk']->value;?>
+</td>
     <td>10</td>
     <td>Купить</td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td>ip_v6_INS</td>
     <td>20</td>
     <td>10</td>
@@ -54,7 +59,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <td>20</td>
     <td>10</td>
     <td>Купить</td>
-  </tr>
+  </tr> -->
   </table>
 </div>
 <?php }} ?>

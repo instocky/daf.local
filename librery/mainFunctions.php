@@ -25,3 +25,11 @@ function d($value = null, $die = 1) {
 
     if($die) die;
 }
+
+// Функция получения суммы остатка по товару (столбец status)
+function getStatusRest($rs) {
+  foreach ($rs as $key => $value) {
+  $summVk += $value['status'];
+  }
+  return ($summVk);
+}

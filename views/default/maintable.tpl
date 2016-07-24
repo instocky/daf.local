@@ -12,11 +12,11 @@
   </tr>
   <tr>
     <td>ip_v6_VK</td>
-    <td>20</td>
+    <td>{$summVk}</td>
     <td>10</td>
     <td>Купить</td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td>ip_v6_INS</td>
     <td>20</td>
     <td>10</td>
@@ -33,6 +33,6 @@
     <td>20</td>
     <td>10</td>
     <td>Купить</td>
-  </tr>
+  </tr> -->
   </table>
 </div>
