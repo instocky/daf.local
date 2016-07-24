@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-24 14:41:24
+<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-24 22:41:20
          compiled from "..\views\default\maintable.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2889557935d105c3398-81362232%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e6afb8ef241de587a5d32a5ec484c0f79776335d' => 
     array (
       0 => '..\\views\\default\\maintable.tpl',
-      1 => 1469360475,
+      1 => 1469389274,
       2 => 'file',
     ),
   ),
@@ -25,10 +25,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57935d105c7218_05617372')) {function content_57935d105c7218_05617372($_smarty_tpl) {?><div class="panel panel-default">
-  <!-- Default panel contents -->
+
   <div class="panel-heading">Panel heading</div>
 
-  <!-- Table -->
+
   <table class="table">
   <tr style="font-weight: bold;">
     <td>Наименование</td>
@@ -49,26 +49,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <td style="font-weight: bold; color: blue;"><?php echo $_smarty_tpl->tpl_vars['vk15']->value;?>
 </td>
     <td>9 рублей</td>
-    <td><a href="#">Купить</a></td>
+    <td><a href="#">Купить)</a></td>
   </tr>
-  <!-- <tr>
-    <td>ip_v6_INS</td>
-    <td>20</td>
-    <td>10</td>
-    <td>Купить</td>
-  </tr>
-  <tr>
-    <td>ip_v6_OK</td>
-    <td>20</td>
-    <td>10</td>
-    <td>Купить</td>
-  </tr>
-  <tr>
-    <td>ip_v6_G</td>
-    <td>20</td>
-    <td>10</td>
-    <td>Купить</td>
-  </tr> -->
   </table>
 </div>
 <?php }} ?>

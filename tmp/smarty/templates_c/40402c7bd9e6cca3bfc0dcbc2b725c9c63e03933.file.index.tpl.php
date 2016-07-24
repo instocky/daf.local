@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-24 14:41:24
+<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-24 22:41:41
          compiled from "..\views\default\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:12473579346a950b878-10128691%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '40402c7bd9e6cca3bfc0dcbc2b725c9c63e03933' => 
     array (
       0 => '..\\views\\default\\index.tpl',
-      1 => 1469360477,
+      1 => 1469389299,
       2 => 'file',
     ),
   ),
@@ -22,10 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_valid && !is_callable('content_579346a9542385_03022173')) {function content_579346a9542385_03022173($_smarty_tpl) {?>
 
 <!-- <?php echo $_smarty_tpl->getSubTemplate ('header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-
+ -->
 <?php echo $_smarty_tpl->getSubTemplate ('maintable.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
-<?php echo $_smarty_tpl->getSubTemplate ('about.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<!-- <?php echo $_smarty_tpl->getSubTemplate ('about.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
  -->
 <!-- <?php echo $_smarty_tpl->getSubTemplate ('buy.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
  -->

@@ -15,7 +15,6 @@ function loadPage($smarty, $controllerName, $actionName = 'index') {
 // $templateName - название файла шаблона
 function loadTemplate($smarty, $templateName) {
   $smarty->display($templateName . TemplatePostfix);
-  d($templateName . TemplatePostfix);
 }
 
 // Функция отладки. Останавливает работу и возвращает значение переменной $value
