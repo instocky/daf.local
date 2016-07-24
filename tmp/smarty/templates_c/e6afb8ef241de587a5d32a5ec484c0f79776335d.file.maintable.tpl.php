@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-24 08:49:17
+<?php /* Smarty version Smarty-3.1.22-dev, created on 2016-07-24 12:47:03
          compiled from "..\views\default\maintable.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2889557935d105c3398-81362232%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e6afb8ef241de587a5d32a5ec484c0f79776335d' => 
     array (
       0 => '..\\views\\default\\maintable.tpl',
-      1 => 1469339354,
+      1 => 1469353618,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_57935d105c7218_05617372',
   'variables' => 
   array (
-    'summVk' => 0,
+    'vk7' => 0,
+    'vk15' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -35,12 +36,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <td>Цена</td>
     <td>Купить</td>
   </tr>
-  <tr>
-    <td>ip_v6_VK</td>
-    <td><?php echo $_smarty_tpl->tpl_vars['summVk']->value;?>
+  <tr style="background-color: lightgray;">
+    <td>ip_v6_VK срок 7 дней</td>
+    <td style="font-weight: bold; color: blue;"><?php echo $_smarty_tpl->tpl_vars['vk7']->value;?>
 </td>
-    <td>10</td>
+    <td>10 рублей</td>
     <td>Купить</td>
+  </tr>
+  </tr>
+  <tr style="background-color: lightgray;">
+    <td>ip_v6_VK срок 15 дней</td>
+    <td style="font-weight: bold; color: blue;"><?php echo $_smarty_tpl->tpl_vars['vk15']->value;?>
+</td>
+    <td>9 рублей</td>
+    <td><a href="#">Купить</a></td>
   </tr>
   <!-- <tr>
     <td>ip_v6_INS</td>

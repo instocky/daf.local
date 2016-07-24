@@ -10,11 +10,18 @@
     <td>Цена</td>
     <td>Купить</td>
   </tr>
-  <tr>
-    <td>ip_v6_VK</td>
-    <td>{$summVk}</td>
-    <td>10</td>
+  <tr style="background-color: lightgray;">
+    <td>ip_v6_VK срок 7 дней</td>
+    <td style="font-weight: bold; color: blue;">{$vk7}</td>
+    <td>10 рублей</td>
     <td>Купить</td>
+  </tr>
+  </tr>
+  <tr style="background-color: lightgray;">
+    <td>ip_v6_VK срок 15 дней</td>
+    <td style="font-weight: bold; color: blue;">{$vk15}</td>
+    <td>9 рублей</td>
+    <td><a href="#">Купить</a></td>
   </tr>
   <!-- <tr>
     <td>ip_v6_INS</td>

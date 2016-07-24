@@ -33,3 +33,41 @@ function getStatusRest($rs) {
   }
   return ($summVk);
 }
+
+// // Получение интервалов по текущей дате
+// function getInterval($rs) {
+//    $dteStart = new DateTime($rs[0]['date']);
+//    $dteEnd   = new DateTime("now");
+//
+//    $dteDiff  = $dteStart->diff($dteEnd);
+//    echo $dteDiff->format("%D");
+//    if(($dteDiff->format("%D")) > 30) {
+//      echo "string";
+//    }
+//
+// }
+
+// Получение остатков по текущей дате
+// для интервалов 7 и 15 дней
+function getRestInterval($rs) {
+   foreach ($rs as $key => $value) {
+   $date = $value['date'];
+   $dteStart = new DateTime($date);
+   $dteEnd   = new DateTime("now");
+
+   $dteDiff  = $dteStart->diff($dteEnd);
+   $dteDiff->format("%D");
+   if(($dteDiff->format("%D")) > 7) {
+     if(($dteDiff->format("%D")) > 15) {
+       $vk7 += 1;
+       $vk15 += 1;
+     }else{
+    $vk7 += 1;
+   }
+ }
+ }
+ $arrayVk[vk7] = $vk7;
+ $arrayVk[vk15] = $vk15;
+ 
+return ($arrayVk);
+}
